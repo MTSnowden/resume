@@ -1,5 +1,5 @@
 .home {
-    background-color: tan;
+    background-color: C0C0C0;
     border: 2px solid grey;
     height: 100vh;
 }
@@ -11,3 +11,4 @@
     background-repeat: repeat-y;
     margin: 0 auto;
 }
+
