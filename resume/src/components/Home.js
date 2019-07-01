@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
+import { Router, Link } from 'react-router-dom'
+import { Jumbotron, Button } from 'react-bootstrap'
 import './home.css'
+
 
 export default class Home extends Component {
 
@@ -9,13 +12,18 @@ export default class Home extends Component {
 
     render() {
         return (
-            <div className="home">
-                {/* <h1>This is the home component.</h1> */}
+            <Router> 
+                <Jumbotron>
+                {/* <img id="signature"></img> */}
+
+                </Jumbotron>
+                <Link to="./Experience">
+                    <Button bsStyle="primary">About</Button>
+                </Link>
+
+            </Router>
                 
-                
-                <img id="signature"></img>
-                
-            </div>
+            
         )
     }
 }
